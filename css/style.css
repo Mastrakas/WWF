@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../img/tigre.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.firstlist{
+    list-style-type: none;
+    font-size: 130%;
+    color: white;
+    font-weight: bold;
+}
+header article{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    text-align: end;
+    background-color: rgba(44, 44, 44, 0.6);
+}
+header h2{
+    color: white;
+}
+header p{
+    color: white;
+    margin: 0 15% 0 50%;
+    text-align: left;
+    font-weight: lighter;
+}
+.menu{
+    width: 60px;
+}
+.menu li{
+    margin: 10px 0px;
+    color: white;
+    border: solid 2px white;
+    list-style-type: none;
+}
+main>section div{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.boutonpremier{
+    height: 75px;
+    border-radius: 200px;
+    background-color: rgb(41, 41, 41);
+    border: solid 2px white;
+    text-align: center;
+    line-height: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    margin: 0px 0px;
+}
+.greenasse{
+    background-color: green;
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+}
+.tigrasse{    
+    bottom:-110px;
+    left:5%;
+}
+.boutonbleu{
+    width: 300px;
+    height: 75px;
+    border-radius: 200px;
+    background-color: blue;
+    border: solid 2px white;
+    text-align: center;
+    line-height: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    margin: 0 auto;
+    padding: 0;
+}
+.textvert h2{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.tigrounet{
+    height: 70vh;
+    margin-top: 10%;
+    margin-bottom: 0;
+    background-image: url(../img/téléchargement.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tigrounet article{
+    bottom: 0;
+    left: 15px;
+    height: 15vh;
+    background-color: rgba(255, 255, 255, 0.3);
+    align-items: center;
+    width: 100%;
+}
+.tigrounet article h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em
+}
+.boutongris{
+    height: 75px;
+    border-radius: 200px;
+    background-color: rgb(41, 41, 41);
+    border: solid 2px white;
+    text-align: center;
+    line-height: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    margin: 0px 0px;
+}
+@media screen and (max-width: 992px){
+    
+    }
+}
